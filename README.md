@@ -6,7 +6,7 @@ The code shows how to allocate and use PSRAM for various standard containers, ma
 
 ## Features
 
-- Demonstrates the use of `std::vector`, `std::list`, `std::map`, `std::string`, and `std::tuple` with PSRAM.
+- Demonstrates the use of `stdpsram::vector`, `stdpsram::list`, `stdpsram::map`, `stdpsram::string`, and `stdpsram::tuple` with PSRAM.
 - Provides examples of allocating these containers in PSRAM and performing basic operations like insertion and iteration.
 - Allows you to test the free heap and PSRAM memory, ensuring that PSRAM is used properly during runtime.
 - Ideal for memory-intensive applications that require more storage on ESP32 devices.
